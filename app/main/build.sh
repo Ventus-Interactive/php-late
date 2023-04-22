@@ -30,4 +30,12 @@ do
     echo "Processing $f file..";
 done
 
+#Copy all WASM files
+for f in *.wasm; 
+do
+    cat $f > "$DEST/$f";
+    echo "Processing $f file..";
+done
+
+
 echo "Process complete." ;

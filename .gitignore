@@ -1,0 +1,6 @@
+.vscode
+bookmarker.php
+app/__/
+app/oglsdl2/
+
+app/*/*.cpp
