@@ -30,6 +30,8 @@ do
     echo "Processing $f file..";
 done
 
-./app/main/build.sh
+cd ./app/main
+./build.sh
+cd ../../
 
 echo "Full Process complete." ;
