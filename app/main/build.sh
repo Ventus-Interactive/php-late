@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Build script for serving static content instead of php files
-DEST="./public_html"
+DEST="../../public_html"
 html=".html"
 
 # Create destination folder
@@ -30,6 +30,4 @@ do
     echo "Processing $f file..";
 done
 
-./app/main/build.sh
-
-echo "Full Process complete." ;
+echo "Process complete." ;
