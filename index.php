@@ -17,6 +17,7 @@ define("SERVER_VERSION", "0.0.1");
 <h3>Server Version: <?= SERVER_VERSION ?></h3>
 
 <a href="./game-sdl2.html">Test SDL2</a>
+<a href="./game_demo.html">Play Main Game</a>
 <!--<a href="./app/oglsdl2/game.php">Test OpenGL-SDL2-CPP</a>
 -->
 
